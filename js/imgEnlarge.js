@@ -7,7 +7,7 @@
 
 (function($) {
 	$.fn.imgEnlarge = function(options) {  
-		this.append('<img class="imgEnlarge" src='+options+'/>');
+		this.append('<img class="imgEnlarge" src='+options+' >');
 		
 		var imgScale = 1;
 		var move = 0;
